@@ -3,7 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "server": "nodemon server.js",
+    "nodemon": "npm run server",
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^10.15.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
